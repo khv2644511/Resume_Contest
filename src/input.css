@@ -7,9 +7,17 @@
 }
 
 .title {
-  @apply text-center box-border mb-10 mt-10 p-5 border-t-2 text-2xl;
+  @apply text-center box-border mb-10 mt-10 p-5 border-t-2 text-3xl;
+}
+
+.title_name {
+  @apply text-2xl;
 }
 
 .project_disc {
   @apply flex flex-col justify-between space-y-4 w-2/3 m-auto box-border ml-32;
+}
+
+.other_experience_title {
+  @apply list-item list-inside text-lg;
 }
