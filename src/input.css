@@ -7,7 +7,7 @@
 }
 
 .title {
-  @apply text-center box-border mb-10 mt-10 p-5 border-t-2 text-3xl;
+  @apply text-center box-border mb-10 mt-10 p-5 border-t-2 text-3xl border-dashed border-red-300;
 }
 
 .title_name {
