@@ -12,19 +12,22 @@
 
 </head>
 
-<body>
+<body class=" bg-red-50">
     <div class="flex flex-col m-40">
-        <div
-            class="text-3xl text-center mb-40  animate__animated animate__zoomIn rounded-full bg-red-100  decoration-red-100">
+        <div class="text-3xl text-center mb-40  animate__animated animate__zoomIn font-extrabold text-red-400">
             누군가의
-            어려움에 솔루션을 제공하는 SW
+            어려움에 <span
+                class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-200 relative inline-block">
+                <span class="relative to-black">솔루션</span>
+            </span>을 제공하는 SW
             개발자로 성장하고
             싶습니다.
         </div>
+
         <div class=" flex">
             <div class="w-1/3 bg-jun ">
                 <div>
-                    <p class=" text-4xl mb-5">김혜빈</p>
+                    <p class=" text-5xl mb-5">김혜빈</p>
                     <p>Front-End Developer</p>
                 </div>
             </div>
@@ -74,9 +77,10 @@
             <p>2022.09 ~</p>
         </div>
         <div class="flex mb-20">
-            <div class="w-1/3">
-                <img class=" bg-cover h-full" src="./assets/vending_machine.png" alt="" />
-            </div>
+            <button
+                class="w-1/3 hover:scale-105 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300">
+                <img class="  bg-cover h-full" src="./assets/vending_machine.png" alt="" />
+            </button>
             <div class="project_disc">
                 <div><strong>프로젝트 소개</strong>
                     <p>Java Script 통한 실제 자판기 기능을 구현
@@ -96,14 +100,16 @@
             <p>2022.09.28 ~</p>
         </div>
         <div class="flex mb-20">
-            <div class="w-1/3">
+            <button
+                class="w-1/3 hover:scale-105 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300">
                 <video class=" bg-covers"
                     src="https://user-images.githubusercontent.com/38063033/192709959-973f3140-e691-4e3e-8b72-47d79a270030.mov"></video>
-            </div>
+            </button>
 
             <div class="project_disc">
                 <div><strong>프로젝트 소개</strong>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias facere iusto atque commodi
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias facere iusto atque
+                        commodi
                     </p>
                 </div>
                 <div><strong>담당 업무</strong>
@@ -121,14 +127,12 @@
         </div>
 
         <div class="flex mb-10">
-            <div class="w-1/3">
-                <video class="aspect-w-16">
-                    <source
-                        src="
-                    https://user-images.githubusercontent.com/38063033/191974085-7857f7af-b11c-40f0-aa15-abfe6f478cf5.mp4">
+            <button class=" w-1/3 hover:scale-105 active:bg-violet-700 focus:outline-none focus:ring
+                focus:ring-violet-300">
+                <video class=" bg-covers"
+                    src="https://user-images.githubusercontent.com/38063033/191974085-7857f7af-b11c-40f0-aa15-abfe6f478cf5.mp4"></video>
+            </button>
 
-                </video>
-            </div>
 
             <div class="project_disc">
                 <div><strong>프로젝트 소개</strong>
